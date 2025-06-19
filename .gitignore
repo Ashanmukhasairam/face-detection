@@ -1,0 +1,14 @@
+# .gitignore for Python/Flask/Render
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+.env
+.DS_Store
+.vscode/
+*.pkl
+*.csv
+*.xlsx

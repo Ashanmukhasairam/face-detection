@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: face-detection
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn backend.app:app
+    plan: free
