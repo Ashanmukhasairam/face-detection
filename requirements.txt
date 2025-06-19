@@ -4,3 +4,8 @@ numpy
 pandas
 openpyxl
 gunicorn
+face_recognition
+python-dotenv
+pymongo
+bson
+watchdog
